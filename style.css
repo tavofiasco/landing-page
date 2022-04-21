@@ -1,0 +1,72 @@
+body {
+    font-family: "roboto";
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: auto;
+    padding: 18px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    background: #1F2937;
+    padding: 18px;
+}
+
+h3 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+
+}
+
+.cardcontainer {
+
+}
+
+.quote {
+
+}
+
+.cta {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}
