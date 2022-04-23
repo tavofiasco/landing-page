@@ -9,7 +9,7 @@ body {
     padding: 18px;
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -48,14 +48,14 @@ a {
     max-width: 300px;
 }
 
-.card ul {
+.left ul {
     flex-direction: column;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.card h2 {
+.left h2 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
@@ -63,7 +63,7 @@ a {
     margin: 0;
 }
 
-.card h4 {
+.left h4 {
     font-size: 18px;
     color: #E5E7EB;
     padding: 0;
@@ -80,7 +80,9 @@ button {
     border: 1px solid #3882f6;
     color: white;
     padding: 5px 30px 5px 30px;
-
     border-radius: 6px;
- 
+}
+
+.right.links, .left.logo {
+    display: flex;
 }
