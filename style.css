@@ -81,7 +81,7 @@ a {
     max-width: 500px;
 }
 
-img {
+.placeholder img {
     max-width: 100%;
     min-width: 100%;
 }
@@ -99,6 +99,11 @@ button {
     justify-content: center;
     flex-flow: row nowrap;
     text-align: center;
+    padding: 50px;
+}
+
+.mid1 {
+    padding-top: 0;
 }
 
 .mid1 h2 {
@@ -114,19 +119,29 @@ button {
 .cards-container {
     display: flex;
     flex-flow: row nowrap;
-    gap: 15px;
+    gap: 20px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagebox {
+    display: flex;
     border: 2px solid #3882f6;
     border-radius: 5px;
-    max-width: 250px;
+    max-width: 300px;
+}
+
+.imagebox img {
+    width: 100%;
+    height: 200px;;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding: 60px;
 }
 
 .quote-container h3, h5 {
