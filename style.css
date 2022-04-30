@@ -13,7 +13,7 @@ body {
 }
 
 .top .container, .mid1 .container, .mid2 .quote-container, .bottom .container, .footer .copy {
-    max-width: 720px;
+    max-width: 900px;
 }
 
 .top .container {
@@ -28,6 +28,10 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.head2 {
+    gap: 50px;
 }
 
 .logo {
@@ -131,26 +135,27 @@ button {
     display: flex;
     flex-flow: row nowrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 60%;
     font-size: 18px;
-    color: #c8c9ca;
+    color: #1F2937;
+    flex: 0;
 }
 
 .imagebox {
     display: flex;
-    border: 2px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 5px;
     max-width: 300px;
 }
 
 .imagebox img {
-    height: 200px;;
+    height: 200px;
 }
 
 .quote-container {
@@ -180,22 +185,48 @@ button {
 
 .bottom {
     display: flex;
-    padding: 100px;
+    padding: 50px;
     justify-content: center;
+}
+
+.bottom .container {
+    width: 100%;
 }
 
 .box {
     background: #3882f6;
-    padding: 35px;
     border-radius: 5px;
+    padding: 35px;
 }
 
 .box .content {
     display: flex;
+    align-items: center;
+    color: #f9faf8;
+    justify-content: space-around;
+}
+
+.content h3, .content h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content h5 {
+    font-size: 12px;
 }
 
 .box button {
-    border: 2px solid #E5E7EB;
+    border: 2px solid #f9faf8;
+}
+
+.statement {
+    display: flex;
+    flex: 1;
 }
 
 .footer {
